@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@color/recharge_alpha_orange" >
+
+    <TextView
+        android:id="@+id/change_local_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="0.0dip"
+        android:layout_weight="1.0"
+        android:background="@android:color/transparent"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="北京市"
+        android:textColor="@color/izaoke_white"
+        android:textIsSelectable="false"
+        android:textSize="18.0sp" />
+
+    <TextView
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/change_local_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15.0dip"
+        android:background="@null"
+        android:src="@drawable/arrow_selector" />
+
+</RelativeLayout>

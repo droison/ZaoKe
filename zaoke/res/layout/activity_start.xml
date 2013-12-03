@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_0004_bg"
+    tools:context=".StartActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
+        android:text="这个是第一次打开APP才\n进入的界面，用来介绍APP"
+        android:textColor="@color/TextColorWhite"
+        android:textSize="@dimen/text_big" />
+
+    <TextView
+        android:id="@+id/start_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:background="@drawable/common_back_btn_selector"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Go!"
+        android:textColor="@color/TextColorWhite" />
+    
+</RelativeLayout>

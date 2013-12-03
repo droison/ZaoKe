@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/order_image_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".QxActivity" >
+
+    <ImageView
+        android:id="@+id/order_image"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="2dp" />
+
+</RelativeLayout>

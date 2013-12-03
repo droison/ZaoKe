@@ -1,0 +1,234 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/_0004_bg" >
+
+    <TextView
+        android:id="@+id/common_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <RelativeLayout
+        android:id="@+id/common_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/common_bottom"
+        android:layout_marginBottom="40dp" >
+
+        <ImageView
+            android:id="@+id/izaoke_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:src="@drawable/back_btn_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/izaoke_back"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/izaoke_showorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:background="@drawable/confirm_selector"
+                android:gravity="center"
+                android:textSize="@dimen/text_middle"
+                android:text="@string/izaoke_showorder"
+                android:textColor="@color/izaoke_white" />
+
+            <TextView
+                android:id="@+id/izaoke_changepwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/common_back_btn_selector"
+                android:gravity="center"
+                android:text="@string/izaoke_changepwd"
+                android:textSize="@dimen/text_middle"
+                android:textColor="@color/izaoke_white"
+                android:visibility="visible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp" >
+
+        <RelativeLayout
+            android:id="@+id/izaoke_relative1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/sanwish1" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/recharge_alpha_orange"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/izaoke_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/izaoke_name"
+                    android:gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:textColor="@color/main_text" />
+
+                <LinearLayout
+                    android:id="@+id/izaoke_changecard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|right"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/izaoke_changeCard"
+                        android:textColor="@color/main_text" />
+
+                    <ImageView
+                        android:id="@+id/izaoke_joinorder"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/sum_btn_selector" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/izaoke_relative2"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/izaoke_local"
+                        android:textColor="@color/izaoke_gray" />
+
+                    <TextView
+                        android:id="@+id/izaoke_local"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/izaoke_name"
+                        android:textColor="@color/izaoke_black" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/izaoke_changelocal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" >
+
+                    <ImageView
+                        android:id="@+id/izaoke_imchangelocal"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/select" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/izaoke_imchangelocal"
+                        android:text="@string/izaoke_changelocal"
+                        android:textColor="@color/izaoke_gray" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/izaoke_balance"
+                        android:textColor="@color/izaoke_gray" />
+
+                    <TextView
+                        android:id="@+id/izaoke_balance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/izaoke_name"
+                        android:textColor="@color/izaoke_black" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/izaoke_recharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" >
+
+                    <ImageView
+                        android:id="@+id/izaoke_imrecharge"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/select" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/izaoke_imrecharge"
+                        android:text="@string/izaoke_pay"
+                        android:textColor="@color/izaoke_gray" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register3Activity" >
+
+    <include layout="@layout/common_bg" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/common_bg" >
+
+        <TextView
+            android:id="@+id/regester3_phonenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+			android:textColor="@color/zaoke_orange"
+            android:textSize="@dimen/text_big"
+            android:text="@string/register3_finishregister" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/register3_passwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/regester3_phonenumber"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:ems="10"
+            android:hint="@string/register3_passwd"
+            android:inputType="phone" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/register3_nick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register3_passwd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:hint="@string/register3_nick"
+            android:ems="10" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="30dp"
+            android:src="@drawable/step_3" />
+    </RelativeLayout>
+
+</RelativeLayout>

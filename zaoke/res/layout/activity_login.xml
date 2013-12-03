@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_0004_bg" >
+
+    <RelativeLayout
+        android:id="@+id/login_inputrelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/login_left_margin"
+        android:layout_marginRight="@dimen/login_right_margin"
+        android:layout_marginTop="@dimen/login_top_margin" >
+
+        <EditText
+            android:id="@+id/login_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_phone_hint"
+            android:inputType="phone"
+            android:lines="1"
+            android:maxLength="11"
+            android:maxLines="1"
+            android:textColor="@color/login_text"
+            android:textColorHint="@color/login_texthint"
+            android:textSize="@dimen/login_text_size" />
+
+        <EditText
+            android:id="@+id/login_passwd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_phone"
+            android:hint="@string/login_passwd"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColor="@color/login_text"
+            android:textColorHint="@color/login_texthint"
+            android:textSize="@dimen/login_text_size" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/login_login"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/login_inputrelative"
+        android:gravity="center"
+        android:textSize="@dimen/text_middle" 
+        android:layout_marginLeft="@dimen/login_left_margin"
+        android:background="@drawable/confirm_selector" 
+        android:textColor="@color/login_text"
+        android:layout_marginRight="@dimen/login_right_margin"
+        android:text="@string/login_login" />
+
+    <TextView
+        android:id="@+id/login_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/login_login"
+        android:layout_marginLeft="@dimen/login_left_margin"
+        android:layout_marginRight="@dimen/login_right_margin"
+        android:text="@string/login_register" />
+
+</RelativeLayout>

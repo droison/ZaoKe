@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">早客</string>
+    <string name="main_start">开始点餐</string>
+    <string name="main_izaoke">我的早客</string>
+    <string name="main_iqx">我的二维码</string>
+    <string name="regester1_phonenumber">输入手机号</string>
+    <string name="regester1_insertnumber">输入11位手机号</string>
+    <string name="regester1_tologin">已有账号？立即登录</string>
+    <string name="regester2_verifycode">输入验证码</string>
+    <string name="regester2_insertcode">输入短信中验证码</string>
+    <string name="regester2_submit">提交验证码</string>
+    <string name="regester2_recode">重新获取验证码</string>
+    <string name="register3_finishregister">完成注册</string>
+    <string name="register3_passwd">输入六位支付密码</string>
+    <string name="register3_nick">输入昵称</string>
+    <string name="offline_text1">网络不给力呀</string>
+    <string name="offline_text2">请检查网络连接</string>
+    <string name="title_activity_qx">QxActivity</string>
+    <string name="qx_backtomain">返回首页</string>
+    <string name="login_phone_hint">输入手机号</string>
+    <string name="login_passwd">输入密码</string>
+
+    <string name="login_login">登录</string>
+    <string name="login_register">还没账号？点此注册</string>
+    <string name="order_go">GO!</string>
+    <string name="order_submit">确认</string>
+    <string name="order_sandwichstory">“我”的故事</string>
+    <string name="order_joinorder"> 加入我的订单</string>
+    <string name="title_activity_shoping_cart">ShopingCartActivity</string>
+
+    <string name="passwd_changepasswd">修改密码</string>
+    <string name="passwd_passwdpast">输入当前密码</string>
+    <string name="passwd_passwdnew">输入新密码</string>
+    <string name="passwd_passwdnew_submit">确认新密码</string>
+    <string name="izaoke_name">茄子的故事</string>
+    <string name="izaoke_changeCard">绑定/更换会员卡</string>
+    <string name="izaoke_local">取餐地点：</string>
+    <string name="izaoke_changelocal">更改地点</string>
+    <string name="izaoke_balance">账户余额：</string>
+    <string name="izaoke_pay">充值</string>
+    <string name="izaoke_showorder">查看我的订单</string>
+    <string name="izaoke_changepwd">修改支付密码</string>
+    <string name="order_success_number">订购成功！订单编号为：</string>
+    <string name="order_success_waring">取餐时请刷二维码或会员卡</string>
+    <string name="order_success_remain">账户余额</string>
+    <string name="my_order_recharge">充值</string>
+    <string name="order_success_tomain">返回首页</string>
+    <string name="my_order_time">订餐时间: </string>
+    <string name="my_order_gettime">取餐时间: </string>
+    <string name="recharge_title">充  值</string>
+    <string name="recharge_balance">账户余额：</string>
+    <string name="recharge_num">充值金额</string>
+    <string name="recharge_20">20元</string>
+    <string name="recharge_30">30元</string>
+    <string name="recharge_50">50元</string>
+    <string name="recharge_100">100元</string>
+    <string name="recharge_200">200元</string>
+    <string name="recharge_mode">支付方式</string>
+    <string name="recharge_alipay">支付宝支付</string>
+    <string name="recharge_submit">确认</string>
+    <string name="my_order_cancel">取消订单</string>
+    <string name="bind_card_title">绑定会员卡</string>
+    <string name="bind_card_number">输入会员卡号</string>
+    <string name="bind_card_passwd">输入会员卡识别码</string>
+    <string name="cart_zhifubao">支付宝支付</string>
+    <string name="cart_yue">余额支付</string>
+    <string name="cart_xianjin">取餐时支付</string>
+    <string name="cart_nonselected">未选择</string>
+
+    <string name="rename_newname">请输入新昵称</string>
+    <string name="rename_title">修改昵称</string>
+    <string name="rename_digits">._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>  
+    <string name="passwd_confirm">确定</string>  
+    
+    <string name="my_order_price_original">原价：</string>  
+    <string name="my_order_price">特惠价</string> 
+    
+</resources>

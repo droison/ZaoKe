@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Register1Activity" >
+
+    <include layout="@layout/common_bg" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/common_bg" >
+
+        <TextView
+            android:id="@+id/regester1_phonenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/zaoke_orange"
+            android:textSize="@dimen/text_big"
+            android:layout_marginTop="30dp"
+            android:text="@string/regester1_phonenumber" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/regester1_insertnumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/regester1_phonenumber"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:ems="10"
+            android:hint="@string/regester1_insertnumber"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="phone" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/register_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/regester1_insertnumber"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/dialog_tiltle_blue"
+            android:ems="10" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="30dp"
+            android:src="@drawable/step_1" />
+    </RelativeLayout>
+
+</RelativeLayout>
